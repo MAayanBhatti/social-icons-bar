@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Icons</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #cfa6a6;
+      font-family: Arial, sans-serif;
+    }
+
+    .icon-container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .icon {
+      width: 60px;
+      height: 60px;
+      background: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      color: black;
+      transition: background 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .facebook:hover { background: #3b5998; color: white; }
+    .twitter:hover { background: #00acee; color: white;}
+    .instagram:hover { background: #e1306c;color: white; }
+    .github:hover { background: #333; color: white;}
+    .youtube:hover { background: #ff0000; color: white;}
+
+    .icon i {
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="icon-container">
+    <div class="icon facebook"><i class="fab fa-facebook-f"></i></div>
+    <div class="icon twitter"><i class="fab fa-twitter"></i></div>
+    <div class="icon instagram"><i class="fab fa-instagram"></i></div>
+    <div class="icon github"><i class="fab fa-github"></i></div>
+    <div class="icon youtube"><i class="fab fa-youtube"></i></div>
+  </div>
+
+</body>
+</html>
